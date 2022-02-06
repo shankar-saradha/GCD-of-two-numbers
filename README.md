@@ -20,10 +20,26 @@ Program to find the gcd of two number using function.
 Developed by: 
 RegisterNumber:  
 */
+'''Program to find the gcd of a number using function.
+Developed by: 
+RegisterNumber: 
+'''
+def gcd():
+    a,b=int(input()),int(input())
+    if a>b:
+        smaller=b
+    else:
+        smaller=a
+    for i in range(1,smaller+1):
+        if(a%i==0 and b%i==0):
+            hcf=i
+    print("GCD of two numbers is:",hcf)
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+
+![gcd ](https://user-images.githubusercontent.com/93978702/152678564-a2f3b029-433a-4637-9a95-3ef31938834a.png)
+
 
 
 ## Result:
